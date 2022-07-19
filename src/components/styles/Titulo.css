@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+:root{
+    --bg-header: #233581;
+    --txt-color: #FFFFFF;
+
+}
+.titulo-container{
+    text-align: center;
+    margin: 0 auto 30px auto;
+    background: var(--bg-header);
+    color: var(--txt-color);
+    padding: 20px 0 ;
+
+}

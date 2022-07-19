@@ -1,0 +1,78 @@
+:root{
+    --card-bg-color: #ffffff;
+    --card-border-color: #d6d6d6;
+    --btn-txt-color: #FFFFFF;
+    --txt-black: #000;
+    --txt-gray: rgb(122, 122, 122);
+    --img-bg-color: #233581;
+    --btn-bg-color: #007BFF;
+    --btn-bg-color-hover: #0052AA;
+}
+
+.card-container{
+    background: var(--card-bg-color);
+    margin: 0 auto 20px auto;
+    width: 40vh;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    transition: all 0.2s;
+    border: 1px solid var(--card-border-color);
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+.image-container{
+    width: 100px;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+}
+
+.user-icon{
+    width: 65%;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.info-container{
+    width: 20vh;
+    height: auto;
+    padding: 5px 0 5px 5px;
+    box-sizing: border-box;
+}
+
+.txt-nombre{
+    color: var(--btn-bg-color);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.txt-profesion{
+    font-size: 17px;
+    margin: 5px 0 10px 0;
+}
+
+.txt-telefono{
+    color: var(--txt-gray);
+    font-size: 15px;
+}
+
+.btn{
+    margin-right: 20px;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 5px;
+    background: var(--btn-bg-color);
+    color: var(--btn-txt-color);
+    font-weight: bold;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: var(--btn-bg-color-hover);
+}
+
+.card-container:hover{
+    transform: scale(1.05);
+}
