@@ -5,6 +5,7 @@ const UserList = (props) => (
     //Pasamos los props
     <div>
         { props.usuario.map((usuario) => {
+            //este componente retorna la tarjeta del usuario
             return (
             <Card key={usuario.id}
             id={usuario.id}

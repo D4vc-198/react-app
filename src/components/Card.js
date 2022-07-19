@@ -22,7 +22,7 @@ class Card extends React.Component{
                     <p className="txt-telefono">(+52) {telefono}</p>
                 </div>
 
-                <Link to={`/info/${id}`}>
+                <Link to={`/react-app/info/${id}`}>
                     <button className="btn" >Detalles</button>
                 </Link>
             </div>

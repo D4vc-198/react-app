@@ -127,7 +127,7 @@ function Detalles(){
             react: reactChecked
         }
         updateDoc(skills, data)
-        navigate('/')
+        navigate('/react-app')
     }
 
 

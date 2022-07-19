@@ -6,8 +6,8 @@ import Info from "../pages/Info";
 const App = () => (
     <BrowserRouter>
     <Routes>
-        <Route exact path="/" element={ <Dashboard /> } />
-        <Route exact path="/info/:id" element={<Info /> } />
+        <Route exact path="/react-app" element={ <Dashboard /> } />
+        <Route exact path="/react-app/info/:id" element={<Info /> } />
     </Routes>
     </BrowserRouter>
 )

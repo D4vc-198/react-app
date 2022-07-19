@@ -35,7 +35,7 @@ class Dashboard extends React.Component{
         this.obtenerDatosUsuario();
     }
     
-
+    //Renderizamos UserList que es el que retorna la card con datos del usuario
     render() {
         return(
             <div>
