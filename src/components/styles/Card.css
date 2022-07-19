@@ -12,8 +12,8 @@
 .card-container{
     background: var(--card-bg-color);
     margin: 0 auto 20px auto;
-    width: 40vh;
-    height: 9vh;
+    width: 60vh;
+    height: 15vh;
     display: flex;
     align-items: center;
     box-sizing: border-box;
@@ -35,7 +35,7 @@
 }
 
 .info-container{
-    width: 20vh;
+    width: 30vh;
     height: auto;
     padding: 5px 0 5px 5px;
     box-sizing: border-box;

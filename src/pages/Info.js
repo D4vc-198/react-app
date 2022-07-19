@@ -153,7 +153,7 @@ function Detalles(){
                     </div>
                     
                     <div className="info-container">
-                        <h2>{datosUsuario.nombre}</h2>
+                        <h2 className="txt-nombre">{datosUsuario.nombre}</h2>
                         <ul>
                             <li className="list-item">
                                 <div className="txt-item">
